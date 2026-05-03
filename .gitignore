@@ -1,8 +1,8 @@
-*.pt 
-__pycache__/ 
+*.pt
+__pycache__/
 .ipynb_checkpoints/
-local_run_retrieval/
-data/
-datasets/
-results/
-.vscode/
+/local_run_retrieval/
+/data/
+/datasets/
+/results/
+/.vscode/
