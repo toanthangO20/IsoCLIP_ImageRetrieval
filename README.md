@@ -1,7 +1,12 @@
 # IsoCLIP Image-to-Image Retrieval
 
-This project is a trimmed split of the original IsoCLIP repository. It keeps the
-image-to-image retrieval pipeline and the Kaggle CUB-200-2011 notebook only.
+This project is a trimmed split derived from the original IsoCLIP repository:
+https://github.com/simomagi/IsoCLIP.
+
+The original repository contains broader IsoCLIP experiments and utilities. This
+repository is scoped only to the image-to-image retrieval task. It keeps the
+retrieval pipeline, image retrieval dataset loaders, experiment launchers, and
+the Kaggle CUB-200-2011 notebook needed for that task.
 
 ## Kept
 
