@@ -1,0 +1,26 @@
+#!/bin/bash
+
+pip install --upgrade pip wheel setuptools
+
+pip install --no-build-isolation git+https://github.com/openai/CLIP.git@jongwook/issue-396
+pip install --no-build-isolation git+https://github.com/KaiyangZhou/Dassl.pytorch
+
+pip install \
+    pandas \
+    scipy \
+    matplotlib \
+    PyYAML \
+    dotmap==1.3.30 \
+    tqdm \
+    scikit-learn \
+    torchmetrics==1.4.0.post0 \
+    openpyxl==3.1.2 \
+    tabulate==0.9.0 \
+    gdown==5.2.0 \
+    easydict==1.13 \
+    yacs==0.1.8 \
+    ftfy \
+    regex \
+    timm \
+    transformers \
+    open-clip-torch==3.2.0
