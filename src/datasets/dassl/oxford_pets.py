@@ -210,6 +210,8 @@ class OxfordPets(Dataset):
             filepath (Path): The path where the split file should be saved.
             path_prefix (str): Prefix for the image paths.
         """
+        path_prefix = str(path_prefix)
+
         def _extract(items: List[Datum]) -> List[tuple]:
             out = []
             for item in items:
@@ -245,6 +247,8 @@ class OxfordPets(Dataset):
             val (List[Datum]): The validation data.
             test (List[Datum]): The test data.
         """
+        path_prefix = str(path_prefix)
+
         def _convert(items: List[tuple]) -> List[Datum]:
             out = []
             for impath, label, classname in items:
